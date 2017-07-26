@@ -1,0 +1,25 @@
+{
+  "name": "react-api",
+  "version": "1.0.0",
+  "description": "MongoDB API Server for react-boilerplate, since Mongoose wont work on react-boilerplate :(",
+  "main": "index.js",
+  "scripts": {
+    "start": "supervisor app.js"
+  },
+  "keywords": [
+    "react",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "zmachmobile",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "circular-json": "^0.3.3",
+    "express": "^4.15.3",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.4",
+    "sha256": "^0.2.0",
+    "supervisor": "^0.12.0"
+  }
+}
